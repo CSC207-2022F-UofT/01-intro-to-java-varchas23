@@ -144,9 +144,9 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] stringSplit = to_split.split(" ")
+        String[] stringSplit = to_split.split(" ");
         for (String i : stringSplit){
-            ret.append(i.charAt(0))
+            ret.append(i.charAt(0));
         }
         return ret.toString();
     }
